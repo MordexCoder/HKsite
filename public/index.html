@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<title>The Horny Kine</title>
+
+<head>
+  <script src="https://kit.fontawesome.com/36c5381d55.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="https://media.discordapp.net/attachments/668880975601729556/735948126011261019/horny_kine.png">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {
+    margin-left: 120px
+  }
+
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0
+    }
+  }
+</style>
+
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img
+      src="https://media.discordapp.net/attachments/668880975601729556/735948126011261019/horny_kine.png?width=406&height=406"
+      style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="page2.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-eye w3-xxlarge"></i>
+      <p>GALLERY</p>
+    </a>
+    <a href="/academy/toc.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fas fa-graduation-cap w3-xxlarge"></i>
+      <p>ACADEMY</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="page2.html" class="w3-bar-item w3-button" style="width:25% !important">GALLERY</a>
+      <a href="/academy/toc.html" class="w3-bar-item w3-button" style="width:25% !important">ACADEMY</a>
+    </div>
+  </div>
+  <div>
+
+    <button id="formBtn" onclick="document.getElementById('id01').style.display='block'"><b>Login</b></button>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small" i>The</span> Horny Kine</h1>
+      <p><em>Made for artists, by artists</em></p>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">About us</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>We're here to help you advertise 18+ content. Our goal is to make
+        a functional website for posting portfolios for the members of HK, while also providing helpful tips and
+        features.<br><b>Site's still in construction.</b>
+      </p>
+      <h3 class="w3-padding-16 w3-text-light-grey"> Server Stats</h3>
+
+      <div class="w3-row w3-center w3-padding-16 w3-section ">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">5+</span><br>
+          Commissions Monthly
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">400+</span><br>
+          Members
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">100+</span><br>
+          Artists
+        </div>
+      </div>
+      <script>
+        function visitPage() {
+          window.location = 'https://discord.gg/2tXMuqK';
+        }
+      </script>
+      <button id="Discord" onclick="visitPage();">
+        <b>Join our Discord</b>
+      </button>
+
+      <!-- Price Sheets -->
+      <h3 class="w3-padding-16 w3-text-light-grey">Price sheets</h3>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <img
+            src="https://media.discordapp.net/attachments/672945898803822594/733742231147511878/part_of_commission_sheet.PNG?width=453&height=406"
+            alt="Maia">
+        </div>
+
+        <div class="w3-half">
+          <img
+            src="https://media.discordapp.net/attachments/672945898803822594/736034800795648120/mahdasahcommissions4.jpg?width=342&height=406"
+            alt="Mahdasah">
+        </div>
+        <div id="seeMore">
+          <script>
+            function visitPage() {
+              window.location = 'page2.html';
+            }
+
+          </script>
+          <button id="Discord" onclick="visitPage();">
+            <b>See more</b>
+          </button>
+        </div>
+        <!-- End Grid/Pricing tables -->
+      </div>
+      <div class="academy">
+        <script>
+          function visitDoc() {
+            window.location = "/academy/toc.html";
+          }
+        </script>
+        <h2 id="academyHead">The Academy Project</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>We've been developing a comprehensive and linear guide to help beginner, intermediate (and even experienced down the line)artists to improve upon their skills.<br>Currently, its very early in development, but we have every intention on building this project into something big.</p>
+        <button class="docBtn" onclick="visitDoc();">See more..</button>
+      </div>
+      <!-- Testimonials -->
+      <h3 class="w3-padding-24 w3-text-light-grey">Server Member Quotes</h3>
+      <img
+        src="https://media.discordapp.net/attachments/668880975601729556/736585428634828891/1e255db00851f657b0d472e242a6fba4.png"
+        alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-margin-right">Mr. Yang</span> ~Fubuki Titty Expert</p>
+      <p>"bro shes a 6000 year old vampire i swear"</p><br>
+
+      <img
+        src="https://media.discordapp.net/attachments/668880975601729556/735949351859388508/horny_kine.png?width=406&height=406"
+        alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-margin-right">Mordex</span> ~Coder</p>
+      <p>"I really don't know what im doing."</p>
+      <!-- End About Section -->
+    </div>
+    <!-- Dont forget to Make Contact Section -->
+
+    <!-- Footer -->
+    <footer>
+      <p id="footerText">Powered by <a href="https://discord.gg/2tXMuqK" target="_blank" class="w3-hover-text-green">The
+          Horny Kine</a></p>
+      <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+  </div>
+  <div id="id01" class="modal">
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+      title="Close Modal">&times;</span>
+    <form class="modal-content animate" action="/php/login.php">
+
+      <div class="container">
+        <div id="usrname">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+        </div>
+        <div id="Passw">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+        <button id="loginBtn" type="submit"><b>Login</b></button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div>
+        <button id="cancelBtn" type="button" onclick="document.getElementById('id01').style.display='none'"
+          class="cancelbtn"><b>Cancel</b></button>
+        <span class="psw"><br>Forgot <a href="#">password?</a></span>
+        <a href="#"><br>Sign Up</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
