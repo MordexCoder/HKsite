@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<title>HK GALLERY</title>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+<script>
+  function validateForm() {
+    var x = document.forms["searchBar"]["search"].value;
+    if (x == "" || x == null) {
+        alert("No arguments given");
+        return false;
+    }
+}
+</script>
+  </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+</style>
+
+<body class="w3-black">
+  <!-- icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- search form -->
+<div>
+<form name="searchBar" class="search_bar" action="#" style="margin:auto;max-width:300px" onsubmit="return validateForm()" method="post" required>
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<div class="home_button">
+  <script>
+    function visitPage(){
+        window.location='index.html';
+    }
+</script>
+  <button onclick="visitPage();" class=" w3-padding-large" style="margin:auto;max-width: width 40px;">
+  <i class="fa fa-home w3-xxlarge"></i>
+  </button>
+  </div>
+</div>
+<div>
+  <form action="/action_page.php">
+    <input type="file" id="myFile" name="filename">
+    <input type="submit">
+  </form>
+</div>
+
+<!-- The image grid -->
+<div class="row">
+  <div class="column">
+    <img src="https://media.discordapp.net/attachments/672945898803822594/733742231147511878/part_of_commission_sheet.PNG?width=453&height=406" alt="Maia" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+</body>
+</html>

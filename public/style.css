@@ -1,0 +1,231 @@
+#loginPage{
+  background-color: black;
+}
+div.loginBox{
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 0.1em solid #f3bb03;
+  border-radius: 7px;
+  left: 480px;
+}
+div.button{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Montserrat',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+div.button:hover {
+  background-color:#fce303;
+  color: black;
+  box-sizing: border-box
+}
+.gallery {
+  background-color: black;
+  color: yellow;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.search_bar input[type=text] {
+  position: static;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+/* Style the submit button */
+form.search_bar button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #f3bb03;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.search_bar button:hover {
+  background: #be950e;
+}
+
+/* Clear floats */
+form.search_bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+div.home_button button{
+  position: fixed;
+  border: none; 
+  left: 450px;
+  bottom: 565px;
+  background-color: #000000;
+  color: #f1f1f1;
+}
+div.home_button button:hover {
+  color: #f3bb03;
+  transition-duration: 1s;
+}
+#seeMore{
+  position: relative;
+  right: 490px;
+}
+#home{
+  text-align: center;
+}
+#home:hover{
+  transition-duration: 2s;
+  color: #f3bb03;
+}
+/*https://discord.gg/2tXMuqK*/
+#Discord {
+  position: static;
+  height: 40px;
+  border-radius: 7px;
+  border: 2px solid #be950e;
+  background-color: black;
+  color: #f3bb03;
+}
+#Discord:hover{
+  transition-duration: 0.7s;
+  color: #000000;
+  background-color: #f3bb03;
+}
+#footerText{
+  text-align: center;
+  color: #333333;
+}
+#formBtn{
+  position: absolute;
+  bottom: 560px;
+  left: 1100px;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  border: 2px solid #be950e;
+  background-color: black;
+  color: #f3bb03;
+}
+#formBtn:hover{
+  transition-duration: 0.7s;
+  color: #000000;
+  background-color: #f3bb03;
+}
+#usrname{
+  top: 70px;
+}
+#passw{
+  position: relative;
+  top: 50px;
+  padding: 10px;
+}
+#loginBtn{
+  position: relative;
+  top: 60px;
+  left: 10px;
+  width: 60px;
+  height: 30px;
+  border: 2px solid #f3bb03;
+  border-radius: 7px;
+  background-color: #f3bb03;
+  color: black;
+}
+#loginBtn:hover{
+  color: #f3bb03;
+  background-color: #000;
+  transition-duration: 0.7s;
+}
+#cancelBtn{
+  bottom: 560px;
+  left: 1100px;
+  width: 65px;
+  height: 30px;
+  border: 2px solid #f3bb03;
+  border-radius: 7px;
+  background-color: #f3bb03;
+  color: black;
+}
+#cancelBtn:hover{
+  color: #f3bb03;
+  background-color: #000;
+  transition-duration: 0.7s;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #222222;
+  color: #f3bb03;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 2px solid #f3bb03;
+  border-radius: 7px;
+  width: 300px; /* Could be more or less, depending on screen size */
+  height: 400px;
+}
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+#academyHead{
+  color: #FFFFFF;
+}
+button.docBtn{
+  height: 100px;
+  width: 60%;
+}
+
